@@ -1,0 +1,119 @@
+/* CSS file- I changed the color of the background and the text.  */
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* All page elements will be inside this container block, which is also centered 2: top/bottom and left/right*/
+main {
+  width: 60%;
+  margin: 0 auto; 
+  color: #000000;
+}
+
+/* All text within the header block will be justified- I prefer this look to centered */
+header {
+  text-align: center;
+  color: #000000;
+}
+
+/* each new section will clear both columns and go again directly beneath */
+section {
+  clear: both;
+}
+
+/* used for text blurb, "floated" to the right of the aside witht the icon image */
+article {
+  float: right;
+  width: 79%;
+  color: #000000;
+}
+
+/* used for icon image, "floated" to the left of the article with the text blurb */
+aside {
+  float: left;
+  width: 20%;
+  color: #000000;
+}
+
+/* Headline styles- I changed the fonts in these */
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+
+/* Subhead styles */
+h2 {
+  font-family: Arial  ;
+  color: #000000;
+}
+
+/* Article headline styles */
+h3 {
+  font-family: arial;
+  padding: 0 20px;
+  color: #000000;
+}
+
+/* Footer style */
+h4 {
+  font-family: arial;
+  color: #000000;
+}
+
+/* Text styles for all paragraphs */
+p {
+  color: #000000;
+  font-size: 14px;
+  font-family: arial;
+  vertical-align: top;
+  padding: 0 20px;
+}
+
+
+/*these are classes https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_class */
+
+.byline {
+  font-weight: bold;  
+}
+
+.caption {
+  color: #737373; 
+}
+
+.captionbyline {
+  color: #737373;
+  font-style: italic;
+  font-size: 10px;
+}
+
+
+/* I created this span to try a new tag, and used it in my main html file */
+span {
+  color: #737373;
+  font-style: italic;
+  font-size: 10px;
+  font-family: arial;
+    
+}
+
+figure {
+  padding: 15px 15px; 
+  float: right;
+  display: inline;
+}
+
+figcaption {
+  color: #737373;
+  font-family: arial;
+  font-size: 12px;
+}
+
+/* Note that the footer row is also cleared beneath both columns */
+footer {
+  clear: both;
+  text-align: center;
+}
